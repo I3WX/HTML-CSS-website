@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    background-color: #f5f5f5;
+}
+.container{
+    margin: 0px;
+}
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: #272829;
+    padding-left: 54px;
+    padding-right: 54px;
+    flex-wrap: wrap;
+}
+.logo{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+
+.social-link{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.middle{
+    display: flex;
+    justify-content: space-around;
+    background-color:#61677A ;
+    padding: 24px 54px 24px 54px;
+}
+.car-collection{
+    border-radius: 15px;
+}
+.midline{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+
+    background-color: #D8D9DA;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: #CEC288 ;
+    height: 480px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.card p{
+    padding: 10px;
+    color: #373737;
+}
+.card h2{
+    padding: 10px;
+    text-align: center;
+    color: #373737;
+}
+.card:hover{
+    background-color: #61677A;
+    color: #D8D9DA;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.title-above-card{
+    padding: 10px;
+    color: #373737;
+}
+
+.quote{
+    padding: 72px;
+    background-color: #98b6ca;
+    text-align: center;
+}
+.end{
+    color:#fff;
+    margin: 60px;
+    padding: 60px;
+    background-color: #61677A;
+}
+footer{
+    color: #D8D9DA;
+    padding: 10px;
+    background-color: #272829;
+    text-align: center;
+}
+.Aswome-car{
+    padding: 45px;
+    padding-right: 250px;  
+}
+
+
+
+.car-1{
+    background-image: url('Image/supercar/bugati.jpeg')  ;
+}
+.car-2{
+    background-image: url('Image/supercar/farari.jpg');
+}
+.car-3{
+    background-image:  url('Image/supercar/lambo.jpeg');
+}
+.car-4{
+    background-image: url('Image/supercar/Koenigsegg.jpg');
+}
+
