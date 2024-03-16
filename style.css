@@ -14,6 +14,7 @@ body{
     padding-right: 54px;
     flex-wrap: wrap;
 }
+
 .logo{
     flex-wrap: wrap;
     display: flex;
@@ -27,6 +28,7 @@ body{
     justify-content: space-between;
     gap: 15px;
 }
+
 .middle{
     display: flex;
     justify-content: space-around;
@@ -35,6 +37,11 @@ body{
 }
 .car-collection{
     border-radius: 15px;
+}
+.car-collection:hover{
+    transform: scale(1.03);
+    transition: all 1s ease;
+    box-shadow: 0 0 50px rgba(33,33,33,.2);
 }
 .midline{
     display: flex;
@@ -67,20 +74,20 @@ body{
 
 .card p{
     padding: 10px;
-    color: #373737;
+    
 }
 .card h2{
     padding: 10px;
     text-align: center;
-    color: #373737;
-}
-.card:hover{
-    background-color: #61677A;
-    color: #D8D9DA;
-    transform: scale(1.03);
-    transition: all 1s ease;
+    
 }
 
+.card:hover{
+    background-color: #272829;
+    color: #D8D9DA;
+    transform: scale(1.05);
+    transition  : all 1s ease;
+}
 .title-above-card{
     padding: 10px;
     color: #373737;
