@@ -19,7 +19,7 @@ body{
     flex-wrap: wrap;
     display: flex;
     align-items: center;
-    color: azure;
+    color: #FAFAFA;
 }
 
 
@@ -93,6 +93,7 @@ body{
 .title-above-card{
     padding: 10px;
     color: #292929;
+    font-size: large;
 }
 
 .quote{
