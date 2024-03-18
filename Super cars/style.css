@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #f5f5f5;
+    background-color: #FAFAFA;
 }
 .container{
     margin: 0px;
@@ -8,7 +8,7 @@ body{
 .top-row{
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 15px;
     background: #272829;
     padding-left: 54px;
     padding-right: 54px;
@@ -22,17 +22,19 @@ body{
     color: azure;
 }
 
+
 .social-link{
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 15px;
 }
 
 .middle{
     display: flex;
     justify-content: space-around;
-    background-color:#61677A ;
+    background-color:#686868 ;
     padding: 24px 54px 24px 54px;
 }
 .car-collection{
@@ -48,24 +50,25 @@ body{
     align-items: center;
     flex-direction: column ;
     flex-wrap: wrap;
-    margin: 20px;
+    background-image: url('Image/supercar/upercar-collection-wallpapers\ \ front.png');
+    background-size: cover;
+    padding-bottom: 24px;
 }
 .container-card{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 .card{
-
-    background-color: #D8D9DA;
+    background-color: #FAFAFA;
     width: 270px;
     margin: 10px;
     border-radius: 15px;
 }
 
 .card-image{
-    background-color: #CEC288 ;
-    height: 480px;
+    height: 151.88px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0px 0px;
@@ -79,35 +82,36 @@ body{
 .card h2{
     padding: 10px;
     text-align: center;
-    
 }
 
 .card:hover{
-    background-color: #272829;
-    color: #D8D9DA;
+    background-color: #292929;
+    color: #FAFAFA;
     transform: scale(1.05);
     transition  : all 1s ease;
 }
 .title-above-card{
     padding: 10px;
-    color: #373737;
+    color: #292929;
 }
 
 .quote{
     padding: 72px;
-    background-color: #98b6ca;
+    background-color: #292929;
     text-align: center;
+    color: #FAFAFA;
 }
 .end{
-    color:#fff;
+    color:#131313;
     margin: 60px;
     padding: 60px;
-    background-color: #61677A;
+    background-color: #686868;
+    font-size: large;
 }
 footer{
-    color: #D8D9DA;
+    color: #FAFAFA;
     padding: 10px;
-    background-color: #272829;
+    background-color: #292929;
     text-align: center;
 }
 .Aswome-car{
@@ -121,7 +125,7 @@ footer{
     background-image: url('Image/supercar/bugati.jpeg')  ;
 }
 .car-2{
-    background-image: url('Image/supercar/farari.jpg');
+    background-image: url('Image/supercar/Ferrari.jpg');
 }
 .car-3{
     background-image:  url('Image/supercar/lambo.jpeg');
